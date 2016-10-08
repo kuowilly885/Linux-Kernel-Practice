@@ -1,0 +1,15 @@
+please enter following command to compile and test : 
+
+compile all the modules : 
+# make
+
+insert and remove all the modules : 
+# sudo insmod hello1.ko
+# sudo rmmod hello1
+# sudo insmod hello2.ko
+# sudo rmmod hello2
+# sudo insmod hello3.ko myname='"Rongshian Kuo"' mystreet='"404 Highland Ave."' mycity="Kearny" zipcode=99867
+# sudo rmmod hello3
+
+show logs to see the results : 
+# dmesg
