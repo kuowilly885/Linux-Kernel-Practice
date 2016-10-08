@@ -1,0 +1,5 @@
+# make
+# gcc float.c -o float
+# sudo insmod hack.ko
+# ./float
+# sudo rmmod hack
